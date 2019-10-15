@@ -23,3 +23,38 @@ body{
      padding: 0%;
      background: white;
  }
+ .portada{
+    display:block;
+    height: auto; 
+    margin: auto;
+    max-height: 430px;
+    max-width: 75%;
+    text-align: center;
+ }
+
+ h4{
+     text-align: center;
+ }
+ .video{
+  text-align: center;
+  
+}
+ .video-responsive {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  padding-bottom: 56.25%; /* 16/9 ratio */
+  padding-top: 30px; /* IE6 workaround*/
+  height: 0;
+  overflow: hidden;
+  }
+  
+  .video-responsive iframe,
+  .video-responsive object,
+  .video-responsive embed {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 50%;
+  height: 50%;
+  }
