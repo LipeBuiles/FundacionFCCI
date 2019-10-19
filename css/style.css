@@ -1,60 +1,70 @@
-body{
-    background: silver;
+body {
+  background-color: #f5cb5f;
+  position: absolute;
+  border-radius: 50%;
 }
-.carousel-inner img {   
-    border-radius: 23px;
-    display:block;
-    height: auto; 
-    margin: auto;
-    max-height: 430px;
-    max-width: 75%;
-    position: relative;   
-    top: 10px;
- }
- .navbar{
-    background: none;
-    border-radius: 23px;
-    height: auto; 
-    margin: auto;
-    max-width: 75%;
-    padding: 0%;
-}
- .nav-item:hover{
-     padding: 0%;
-     background: white;
- }
- .portada{
-    display:block;
-    height: auto; 
-    margin: auto;
-    max-height: 430px;
-    max-width: 75%;
-    text-align: center;
- }
-
- h4{
-     text-align: center;
- }
- .video{
-  text-align: center;
-  
-}
- .video-responsive {
-  max-width: 100%;
+h4 {
+  padding-top: 25px;
+  background: white;
+  display: block;
   height: auto;
+  margin: auto;
+  max-height: 430px;
+  max-width: 75%;
+  text-align: center;
+}
+.carousel-inner img {
+  border-radius: 23px;
+  display: block;
+  height: auto;
+  margin: auto;
+  max-height: 430px;
+  max-width: 75%;
   position: relative;
-  padding-bottom: 56.25%; /* 16/9 ratio */
-  padding-top: 30px; /* IE6 workaround*/
+  top: 10px;
+}
+.navbar {
+  background: none;
+  border-radius: 5px;
+  height: auto;
+  margin: auto;
+  max-width: 75%;
+  padding: 0%;
+  background: none;
+  color: red;
+}
+
+.nav-item:hover {
+  padding: 0%;
+  background: white;
+}
+.portada {
+  background: white;
+  display: block;
+  height: auto;
+  margin: auto;
+  max-height: 430px;
+  max-width: 75%;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+.video-responsive {
   height: 0;
   overflow: hidden;
-  }
-  
-  .video-responsive iframe,
-  .video-responsive object,
-  .video-responsive embed {
-  position: absolute;
-  top: 0; 
+  top: 25px;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+}
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+  height: 100%;
   left: 0;
-  width: 50%;
-  height: 50%;
-  }
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
