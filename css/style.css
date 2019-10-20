@@ -132,5 +132,6 @@ iframe{
 	.social ul li .icon-mail {background: #666666;}
 
 	.social ul li a:hover {
-		background: salmon; /* Cambiamos el fondo cuando el usuario pase el mouse */
+    background:linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);; /* Cambiamos el fondo cuando el usuario pase el mouse */ 
+    border-radius: 46px;
   }
