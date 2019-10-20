@@ -69,7 +69,6 @@ h4 {
 }
 .contacto{
   background: none;
-  border-radius: 5px;
   height: auto;
   margin: auto;
   max-width: 100%;
@@ -89,15 +88,19 @@ h4 {
   height: 50%;
 }
 .endpage{
-  background-color:rgba(238, 231, 231, 0.397);
+  background-color:white;
   opacity:0.6;
   filter:alpha(opacity=60); /* IE < 9.0 */
 }
 .qr1{
   height: 900%;
   width: 90%;
+  
 }
 h5{
   font-size: 95%;
   text-align: center;
+}
+iframe{
+  padding-top: 0%;
 }
