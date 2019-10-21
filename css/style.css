@@ -78,9 +78,6 @@ h4 {
   margin: auto;
   max-width: 100%;
   padding: 0%;
-  background-color: rgba(238, 231, 231, 0.397);
-  opacity: 0.6;
-  filter: alpha(opacity=60); /* IE < 9.0 */
 }
 .contac {
   display: inline-block;
