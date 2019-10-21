@@ -125,8 +125,8 @@ iframe {
 .social ul li .icon-facebook {
   background: #3b5998;
 } /* Establecemos los colores de cada red social, aprovechando su class */
-.social ul li .icon-twitter {
-  background: #00abf0;
+.social ul li .icon-whatsapp {
+  background: #25d366;
 }
 .social ul li .icon-instagram {
   background: radial-gradient(
