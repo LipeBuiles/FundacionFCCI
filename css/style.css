@@ -88,10 +88,6 @@ h4 {
   display: inline-block;
   width: 20%;
 }
-.endpage {
-  opacity: 0.6;
-  filter: alpha(opacity=60); /* IE < 9.0 */
-}
 .qr1 {
   height: 900%;
   width: 90%;
