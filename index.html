@@ -134,6 +134,15 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
 
+          <script type="text/javascript">
+          var color = ["#f39c12", "#e74c3c", "#3498db", "#9b59b6", "#1abc9c", "#95a5a6", "#e84393"];
+          var i = 0;
+          document.querySelector("a").addEventListener("click",function(){
+            i = i < color.length ? ++i : 0;
+            document.querySelector("body").style.background = color[i]
+          })
+
+          </script>
 
 </body>
 
