@@ -36,6 +36,7 @@ h4 {
 .nav-item:hover {
   padding: 0%;
   background: white;
+  color:black !important;
 }
 .portada {
   background: white;
@@ -135,3 +136,22 @@ iframe{
     background:linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);; /* Cambiamos el fondo cuando el usuario pase el mouse */ 
     border-radius: 46px;
   }
+  .navbar-brand{
+    font-family: "Arial", serif !important;
+    font-weight: bold;
+    color: white !important;
+    }
+  
+    .navbar-brand:hover {
+      color: black !important;
+      }
+    .nav-link{
+      color: white !important;
+      font-weight: bold;
+      }
+      .nav-link:hover{
+        color: black !important;
+
+        }
+        
+   
