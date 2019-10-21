@@ -166,3 +166,10 @@ iframe {
 .nav-link:hover {
   color: black !important;
 }
+.logo{
+  position: relative;
+  float: left;
+  left: 15%;
+  height: 10%;
+  width: 10%;
+}
